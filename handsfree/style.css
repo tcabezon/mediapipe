@@ -3,6 +3,13 @@
     transform: rotateY(180deg);
     -webkit-transform:rotateY(180deg); /* Safari and Chrome */
     -moz-transform:rotateY(180deg); /* Firefox */
+    width: 100%;
+   height: auto;
+}
+
+.output_canvas{
+   width: auto;
+   height: auto;
 }
 
 .removed {
@@ -16,12 +23,25 @@
     background-color: rgba(74, 74, 74, 0.85);
     /* color:white; */
   }
-.dot{
+
+#dot{
+    top:10px;
+    left:10px;
     background-color: red;
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     position: absolute;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%,-50%);  
 }
+
+.blocks{
+    padding: 100px;
+    margin: 50px;
+    font-size: xx-large;
+    border-style: dotted;
+    
+
+}
+
+
